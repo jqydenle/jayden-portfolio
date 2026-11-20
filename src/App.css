@@ -197,3 +197,11 @@ body {
     scroll-behavior: smooth;
   }
 }
+
+.resume-link {
+  display: inline-block;
+  margin-top: 24px;
+  color: var(--electric-blue);
+  font-weight: 600;
+  text-underline-offset: 4px;
+}
