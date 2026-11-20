@@ -1,0 +1,24 @@
+:root {
+  --flamingo-pink: #fac7e1;
+  --plum-pink: #a5467c;
+  --electric-blue: #004afd;
+
+  font-family: system-ui, sans-serif;
+  color: #000;
+  background: var(--flamingo-pink);
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
